@@ -1,23 +1,20 @@
 import React from "react";
-import { headerItems } from "../data/headerItem";
+import { headerItems } from "../data/hompageData";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Button from "./Button";
+import Button from "../components/Button";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-container flex justify-between items-center">
-        {/* Left + Middle */}
         <div className="flex items-center  gap-[46px]">
-          {/* Left Section */}
           <div>
             <p className=" md:flex items-center font-sans font-bold text-[20px] text-[#064EA4]">
               Software Recruitment co.
             </p>
           </div>
 
-          {/* Middle Navigation */}
           <nav className="hidden md:flex items-center gap-[30px] p-[0]">
             {headerItems.map((item) => (
               <button
@@ -37,7 +34,6 @@ const Header = () => {
           </nav>
         </div>
 
-        {/* Right Section */}
         <div className="flex gap-[10px]">
           <Button className="text-[#451B09]" bgColor="#FCDF69">
             Upload CV
