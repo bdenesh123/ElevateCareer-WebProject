@@ -18,3 +18,45 @@ export const companyLogos = [
   { src: cloudflareLogo, alt: "Cloudflare Logo" },
   { src: vmwareLogo, alt: "vmware Logo" },
 ];
+
+export const jobCards = [
+  {
+    background: "#FBD774",
+    textColor: "#064EA4",
+    tagColor: "#064EA4",
+
+    tag: "Python",
+    title: "Software Engineer",
+    location: "London",
+    salary: "£65,000",
+    description:
+      "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    postedDate: "29/08/2023",
+  },
+  {
+    background: "#064EA4",
+    textColor: "#ffffff",
+    tagColor: "#064EA4",
+
+    tag: "Python",
+    title: "Full Stack Developer",
+    location: "London",
+    salary: "£65,000",
+    description:
+      "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    postedDate: "29/08/2023",
+  },
+  {
+    background: "#F29973",
+    textColor: "#4A2A07",
+    tagColor: "#064EA4",
+
+    tag: "Python",
+    title: "Backend Engineer",
+    location: "London",
+    salary: "£65,000",
+    description:
+      "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    postedDate: "29/08/2023",
+  },
+];

@@ -17,11 +17,11 @@
 
 @layer components {
   .header {
-    @apply w-full h-[84px] bg-white flex items-center justify-center;
+    @apply w-full px-[120px] h-[84px] bg-white flex items-center justify-center;
   }
 
   .header-container {
-    @apply w-full max-w-[1440px] flex items-center justify-between px-[120px] h-[44px] gap-[60px];
+    @apply w-full max-w-[1440px] flex items-center justify-between  h-[44px] gap-[60px];
   }
 }
 
