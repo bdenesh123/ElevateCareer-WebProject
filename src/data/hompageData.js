@@ -3,6 +3,12 @@ import atlassianLogo from "../assets/Logo/atlassianLogo.png";
 import cloudflareLogo from "../assets/Logo/cloudflareLogo.png";
 import microsoftLogo from "../assets/Logo/microsoftLogo.png";
 import vmwareLogo from "../assets/Logo/vmwareLogo.png";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const headerItems = [
   { name: "For jobseekers", href: "jobseekers" },
@@ -60,3 +66,44 @@ export const jobCards = [
     postedDate: "29/08/2023",
   },
 ];
+
+export const footerLinks = {
+  branding: {
+    title: "Software Recruitment co.",
+    socials: [
+      { icon: faLinkedinIn, href: "#" },
+      { icon: faFacebook, href: "#" },
+      { icon: faInstagram, href: "#" },
+      { icon: faTwitter, href: "#" },
+    ],
+  },
+
+  sections: [
+    {
+      title: "Explore",
+      items: [
+        "Homepage",
+        "For jobseekers",
+        "For clients",
+        "Our sectors",
+        "Resources",
+        "Contact us",
+      ],
+    },
+    {
+      title: "Sectors",
+      items: [
+        "Software engineering",
+        "DevOps",
+        "Cloud",
+        "Infrastructure",
+        "Testing",
+        "Security",
+      ],
+    },
+    {
+      title: "Services",
+      items: ["Nav item", "Nav item", "Nav item", "Nav item", "Nav item"],
+    },
+  ],
+};

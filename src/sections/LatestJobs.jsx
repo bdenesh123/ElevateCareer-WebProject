@@ -13,16 +13,13 @@ const LatestJobs = () => {
       <div className="flex flex-col items-center justify-center w-full">
         <div className="text-[#0E2152] text-[56px] font-bold">Latest Jobs</div>
 
-        {/* Jobs Row */}
         <div className="grid grid-cols-3 gap-30 mt-10 w-full">
           {jobCards.map((card, index) => (
             <JobCard key={index} {...card} />
           ))}
         </div>
 
-        {/* Footer Row */}
         <div className="flex items-center justify-between w-full mt-10 px-[5px]">
-          {/* Slider Arrows */}
           <div className="flex items-center gap-4">
             <button className="text-[#0E2152] hover:opacity-70 transition">
               <FontAwesomeIcon
@@ -38,7 +35,6 @@ const LatestJobs = () => {
             </button>
           </div>
 
-          {/* View More Jobs */}
           <button className="text-[#0E2152] font-medium text-[18px] hover:underline">
             View more jobs
           </button>

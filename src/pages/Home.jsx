@@ -7,7 +7,7 @@ import Footer from "../sections/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <JobSearch />
       <Companies />
