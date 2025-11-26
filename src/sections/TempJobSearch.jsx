@@ -1,7 +1,7 @@
 import React from "react";
 import jobSearchImg from "../assets/jobSearchImg.jpg";
 
-const JobSearch = () => {
+const TempJobSearch = () => {
   return (
     <section
       className="
@@ -60,4 +60,4 @@ const JobSearch = () => {
   );
 };
 
-export default JobSearch;
+export default TempJobSearch;
