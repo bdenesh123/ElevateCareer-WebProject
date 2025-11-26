@@ -12,9 +12,8 @@ const Button = ({
       onClick={onClick}
       style={{ backgroundColor: bgColor }} // <-- dynamic background
       className={`
-        flex items-center justify-center gap-[10px]
-        w-[121px] h-[44px] 
-        px-[20px] py-[12px]
+        flex items-center justify-center 
+        w-[125px] h-[44px] 
         rounded-[30px]
         font-bold text-[15px]
         ${className || ""}
