@@ -194,7 +194,13 @@ export const footerLinks = {
     },
     {
       title: "Services",
-      items: ["Nav item", "Nav item", "Nav item", "Nav item", "Nav item"],
+      items: [
+        "Executive search",
+        "Project-based hiring",
+        "Remote talent hiring",
+        "HR advisory",
+        "Workforce planning",
+      ],
     },
   ],
 };

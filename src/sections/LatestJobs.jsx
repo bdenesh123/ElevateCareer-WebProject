@@ -45,12 +45,14 @@ const LatestJobs = () => {
   }, []);
 
   const slideTo = (newIndex) => {
-    const width = sliderRef.current.offsetWidth;
+    const slideWidth = sliderRef.current.querySelector("div").offsetWidth;
+
     gsap.to(sliderRef.current, {
-      x: -width * newIndex,
+      x: -slideWidth * newIndex,
       duration: 0.8,
       ease: "power3.inOut",
     });
+
     setCurrentIndex(newIndex);
   };
 
@@ -78,7 +80,7 @@ const LatestJobs = () => {
             {slides.map((slide, slideIndex) => (
               <div
                 key={slideIndex}
-                className="flex gap-8 w-full justify-center flex-shrink-0"
+                className="flex gap-6 sm:gap-8 w-full justify-center flex-shrink-0 px-2 sm:px-4"
               >
                 {slide.map((card, cardIndex) => (
                   <JobCard key={cardIndex} {...card} />
