@@ -80,9 +80,13 @@ const Header = () => {
             </button>
           ))}
 
-          <div className="flex flex-row justify-center gap-3 mt-2 text-[#451B09]">
-            <Button bgColor="#FCDF69">Upload CV</Button>
-            <Button bgColor="#F99D76">Contact Us</Button>
+          <div className="flex flex-row justify-center gap-3 mt-2 text-[#451B09] flex-wrap">
+            <Button className="flex-shrink-0" bgColor="#FCDF69">
+              Upload CV
+            </Button>
+            <Button className="flex-shrink-0" bgColor="#F99D76">
+              Contact Us
+            </Button>
           </div>
         </div>
       )}

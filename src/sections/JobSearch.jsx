@@ -20,7 +20,6 @@ const JobSearch = () => {
           <div className="text-[16px] font-medium text-center lg:text-left mb-2">
             Software Recruitment Specialists
           </div>
-
           <div
             className="
         font-extrabold 
@@ -30,14 +29,13 @@ const JobSearch = () => {
           >
             Elevate your career
           </div>
-
-          <div className="flex w-full h-[54px] md:h-[62px] bg-white rounded-full overflow-hidden">
+          <div className="flex flex-row flex-wrap w-full h-[54px] md:h-[62px] bg-white rounded-full overflow-hidden">
             <input
               type="text"
               placeholder="E.g. networking"
-              className="flex-1 px-5 text-black outline-none"
+              className="flex-1 min-w-[150px] px-5 text-black outline-none"
             />
-            <button className="px-6 md:px-[41px] bg-[#FCDF69] text-[#25210E] font-bold">
+            <button className="px-6 md:px-[41px] bg-[#FCDF69] text-[#25210E] font-bold flex-shrink-0">
               Search jobs
             </button>
           </div>
