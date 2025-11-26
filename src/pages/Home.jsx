@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../sections/Header";
-import JobSearch from "../sections/jobSearch";
 import Companies from "../sections/Companies";
 import LatestJobs from "../sections/LatestJobs";
 import Footer from "../sections/Footer";
+import JobSearch from "../sections/jobSearch";
 
 const Home = () => {
   return (
