@@ -16,7 +16,7 @@ const Header = () => {
   const handleResize = () => {
     setIsMobile(window.innerWidth < 1100);
   };
-
+  console.log(isMobile);
   useEffect(() => {
     handleResize();
     window.addEventListener("resize", handleResize);

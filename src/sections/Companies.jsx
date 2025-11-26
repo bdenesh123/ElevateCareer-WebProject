@@ -18,7 +18,7 @@ const Companies = () => {
 
     gsap.to(container, {
       x: -logosWidth,
-      duration: 22,
+      duration: 12,
       ease: "linear",
       repeat: -1,
     });

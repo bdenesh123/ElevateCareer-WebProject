@@ -30,11 +30,6 @@ export const jobCards = [
     background: "#FBD774",
     textColor: "#064EA4",
     tagColor: "#064EA4",
-
-    tag: "Python",
-    title: "Software Engineer",
-    location: "London",
-    salary: "£65,000",
     description:
       "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
     postedDate: "29/08/2023",
@@ -43,11 +38,6 @@ export const jobCards = [
     background: "#064EA4",
     textColor: "#ffffff",
     tagColor: "#064EA4",
-
-    tag: "Python",
-    title: "Full Stack Developer",
-    location: "London",
-    salary: "£65,000",
     description:
       "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
     postedDate: "29/08/2023",
@@ -56,15 +46,116 @@ export const jobCards = [
     background: "#F29973",
     textColor: "#4A2A07",
     tagColor: "#064EA4",
-
-    tag: "Python",
-    title: "Backend Engineer",
-    location: "London",
-    salary: "£65,000",
     description:
       "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
     postedDate: "29/08/2023",
   },
+  {
+    background: "#FBD774",
+    textColor: "#064EA4",
+    tagColor: "#064EA4",
+    description:
+      "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.",
+    postedDate: "29/08/2023",
+  },
+];
+
+export const jobSlides = [
+  // Slide Set 1
+  [
+    {
+      ...jobCards[0],
+      title: "Python Developer",
+      tag: "Python",
+      location: "Berlin",
+      salary: "€70,000",
+    },
+    {
+      ...jobCards[1],
+      title: "React Developer",
+      tag: "JavaScript",
+      location: "Amsterdam",
+      salary: "€68,000",
+    },
+    {
+      ...jobCards[2],
+      title: "Node.js Backend Engineer",
+      tag: "Java",
+      location: "Remote",
+      salary: "£72,000",
+    },
+    {
+      ...jobCards[3],
+      title: "C# Software Engineer",
+      tag: "C#",
+      location: "Dublin",
+      salary: "€75,000",
+    },
+  ],
+
+  // Slide Set 2
+  [
+    {
+      ...jobCards[0],
+      title: "Senior Python Engineer",
+      tag: "Python",
+      location: "London",
+      salary: "£85,000",
+    },
+    {
+      ...jobCards[1],
+      title: "Full Stack Engineer",
+      tag: "JavaScript",
+      location: "Berlin",
+      salary: "€78,000",
+    },
+    {
+      ...jobCards[2],
+      title: "DevOps Engineer",
+      tag: "Java",
+      location: "Amsterdam",
+      salary: "€80,000",
+    },
+    {
+      ...jobCards[3],
+      title: "Frontend React Developer",
+      tag: "C#",
+      location: "Remote",
+      salary: "£70,000",
+    },
+  ],
+
+  // Slide Set 3
+  [
+    {
+      ...jobCards[0],
+      title: "AI Software Engineer",
+      tag: "AI",
+      location: "London",
+      salary: "£90,000",
+    },
+    {
+      ...jobCards[1],
+      title: "React Native Developer",
+      tag: "Mobile",
+      location: "Berlin",
+      salary: "€68,000",
+    },
+    {
+      ...jobCards[2],
+      title: "Cybersecurity Engineer",
+      tag: "Security",
+      location: "Amsterdam",
+      salary: "€85,000",
+    },
+    {
+      ...jobCards[3],
+      title: "Cloud Solutions Architect",
+      tag: "Cloud",
+      location: "Remote",
+      salary: "£92,000",
+    },
+  ],
 ];
 
 export const footerLinks = {
