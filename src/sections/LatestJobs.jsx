@@ -37,7 +37,6 @@ const LatestJobs = () => {
     setCurrentIndex(0);
   };
 
-  // Handle resize
   useEffect(() => {
     buildSlides();
     window.addEventListener("resize", buildSlides);

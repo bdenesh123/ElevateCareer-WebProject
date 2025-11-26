@@ -56,7 +56,6 @@ const Header = () => {
           </div>
         )}
 
-        {/* HAMBURGER ICON */}
         {isMobile && (
           <button
             className="text-2xl text-[#064EA4]"

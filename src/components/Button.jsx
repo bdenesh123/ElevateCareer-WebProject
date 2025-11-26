@@ -10,7 +10,7 @@ const Button = ({
   return (
     <button
       onClick={onClick}
-      style={{ backgroundColor: bgColor }} // <-- dynamic background
+      style={{ backgroundColor: bgColor }}
       className={`
         flex items-center justify-center 
         w-[125px] h-[44px] 
